@@ -1,0 +1,130 @@
+.upload-data{
+  overflow:hidden;
+  font-size:14px;
+  .title {
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #2CAF64;
+  }
+  .main,.err-data{
+    overflow:hidden;
+    border:1px solid rgba(228, 228, 228, 1);
+    height:315px;
+    .top{
+      border-bottom:1px solid rgba(228, 228, 228, 1);
+      background-color:azure;
+      height:50px;
+      li{
+        height:48px;
+        margin-left:20px;
+      }
+      .left{
+        float:left;
+        line-height:48px;
+        span{
+          color:red;
+          padding-left:20px;
+        }
+      }
+      .right{
+        float:right;
+        .btn{
+          height:40px;
+          margin-top:5px;
+          margin-right:20px;
+        }
+      }
+    }
+  }
+  .main{
+    .top{
+      border-bottom:1px solid rgba(228, 228, 228, 1);
+      background-color:azure;
+      height:50px;
+      li{
+        height:48px;
+        margin-left:20px;
+      }
+      .left{
+        float:left;
+        line-height:48px;
+      }
+      .right{
+        float:right;
+        .btn{
+          height:40px;
+          margin-top:5px;
+          margin-right:20px;
+        }
+      }
+    }
+    .body{
+      overflow:hidden;
+      margin-top:40px;
+      margin-left:60px;
+      li{
+        position:relative;
+        border:1px solid green;
+        float:left;
+        margin-right:30px;
+        margin-bottom:30px;
+        button{
+          width:252px;
+          height:60px;
+        }
+        input{
+          position:absolute;
+          width:250px;
+          height:56px;
+          top:0px;
+          left:1px;
+          opacity:0;
+        }
+      }
+    }
+  }
+  .err-data{
+    margin-top:20px;
+    .table{
+      overflow:hidden;
+      border:1px solid rgba(228, 228, 228, 1);
+      margin:16px 20px;
+      .header{
+        height:40px;
+        background-color:#f2f2f2;
+      }
+      .header,.body{
+        border-bottom:1px solid rgba(228, 228, 228, 1);
+        height:40px;
+        width:100%;
+        display:table;
+        li{
+          height:39px;
+          line-height:39px;
+          border-right:1px solid rgba(228, 228, 228, 1);
+          float:left;
+          padding:0 16px;
+          display:table-cell;
+          vertical-align:middle;
+          overflow:hidden;
+        }
+        li:last-child{
+          border-right:0px;
+        }
+        .label-1{
+          width:200px;
+        }
+        .label-2{
+          width:360px;
+        }
+        .label-3{
+          width:calc(100% - 600px);
+        }
+      }
+      .body:last-child{
+        border:1px;
+      }
+    }
+  }
+}

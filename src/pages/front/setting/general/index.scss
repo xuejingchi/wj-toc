@@ -1,0 +1,72 @@
+.general{
+  padding: 20px 25px;
+  .set-btn:first-child{
+    margin-left: 10px;
+  }
+}
+.box{
+  //width: 550px;
+  //height: 100vh;
+  border: 1px solid #EDEFF6;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.14);
+  border-radius: 4px;
+  //padding-bottom: 80px;
+  //position: absolute;
+  //left: 100%;
+  //top: 0;
+  //transform: translate(-550px, 0);
+  h1{
+    height: 44px;
+    background: #F7F7F7;
+    line-height: 44px;
+    padding-left: 25px;
+    font-size: 16px;
+    color: #333333;
+  }
+  .el-dialog{
+    width: 100%;
+    margin-top: 0!important;
+    left: 30%;
+    .el-dialog__header{
+      padding: 0;
+    }
+    .el-dialog__body{
+      padding: 0;
+    }
+  }
+  .addPhase,.tableList{
+    .box-title{
+      padding: 20px 0 20px 25px;
+    }
+    .addRadio{
+      padding-left: 25px;
+      .key{
+        display: inline-block;
+        width: 76px;
+        text-align: right;
+      }
+      .el-form{
+        margin-top: 27px;
+      }
+      .el-form-item__label{
+      }
+    }
+    .el-table{
+      width: 90%;
+      margin-left: 25px;
+    }
+    .el-table__empty-block{
+      margin-top: 15px;
+      height: 140px;
+      img{
+        width: 150px;
+        height: 100px;
+      }
+      .el-table__empty-text{
+        font-size: 20px;
+        color: #999;
+        top: 115px;
+      }
+    }
+  }
+}

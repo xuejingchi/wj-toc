@@ -1,0 +1,23 @@
+.error-data {
+  position: relative;
+  padding: 0 10px;
+  font-size: 16px;
+  .el-tabs__item:hover {
+    color: #000 !important;
+  }
+  .is-active {
+    background-color: #37CBC1;
+    color: #fff;
+  }
+  .is-active:hover {
+    color: #fff !important;
+  }
+  .title {
+    margin: 10px 0;
+    padding-left: 10px;
+    border-left: 3px solid #2CAF64;
+  }
+  .content{
+    background-color: #fff;
+  }
+}

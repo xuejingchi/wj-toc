@@ -1,0 +1,48 @@
+body{
+  height: 100%;
+}
+.app-wrap-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ccc;
+  .header-left-logo {
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .header-nav-menu {
+    flex: 1;
+    margin-right: 20px;
+  }
+}
+.main-view {
+  position: relative;
+  .slider {
+    float: left;
+    width: 200px;
+  }
+  .main-view {
+    float: left;
+    width: calc(100% - 200px);
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #F5F7FA;
+  }
+}
+.footer {
+  height:60px;
+  text-align: center;
+  background: #F5F7FA;
+  line-height: 60px;
+
+}
+.leftbox{
+  width:200px;
+  height:60px;
+  float: left;
+  background:#fff;
+  z-index:100;
+}

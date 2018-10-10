@@ -1,0 +1,89 @@
+.sku-list {
+  // position: relative;
+  padding: 0 10px;
+  font-size: 16px;
+  .title {
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #2CAF64;
+  }
+  .el-dialog{
+    left:35%;
+  }
+  .search-condition {
+    margin: 20px 0;
+    border: 1px solid #e2e2e2;
+    .condition-title {
+      padding: 0 20px;
+      height: 50px;
+      line-height: 48px;
+      font-size: 16px;
+      border-bottom: 1px solid #e2e2e2;
+      background-color: azure;
+      .open-btn {
+        span {
+          cursor: pointer;
+        }
+      }
+    }
+    .condition {
+      position: relative;
+      padding: 20px;
+      background-color: #fff; 
+      .item {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        .name {
+          float: left;
+        }
+        .value {
+          margin: 0 15px;
+          float: left;
+          .el-input input {
+            width: 130px;
+            padding: 0 5px;
+          }
+          .start-input, .end-input {
+            width: 200px;
+            input {
+              width: 200px;
+              padding: 0 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .search-list {
+    border: 1px solid #e2e2e2;
+    .search-title {
+      padding: 0 20px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      border-bottom: 1px solid #e2e2e2;
+      background-color: azure;
+    }
+  }
+  .cell {
+    padding: 0;
+    text-align: center;
+  }
+  .el-button+.el-button {
+    margin-left: 2px;
+  }
+  .el-dialog--center .el-dialog__body {
+    padding: 25px 100px 30px 25px;
+  }
+  .el-form-item__label {
+    padding: 0;
+  }
+  .el-form-item__content {
+    margin-left: 120px !important;
+  }
+  .el-select>.el-input {
+    float: left;
+  }
+}

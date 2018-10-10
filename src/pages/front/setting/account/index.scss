@@ -1,0 +1,68 @@
+.account-setting-page {
+  width: 100%;
+  .account-setting-title {
+    font-size: 16px;
+    color: #333;
+    line-height: 20px;
+    margin-bottom: 15px;
+    span {
+      display: inline-block;
+      width: 5px;
+      height: 20px;
+      background-color: #1F9251;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+  .account-setting-item {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }.addDialog {
+     .el-dialog {
+       .form {
+         .form-item {
+           margin-bottom: 10px;
+           .form-label {
+             width: 80px;
+             margin-right: 12px;
+             .required {
+               position: relative;
+               float: right;
+               display: block;
+               height: 36px;
+               line-height: 36px;
+               &:after {
+                 content: '*';
+                 position: absolute;
+                 color: darkred;
+                 font-size: 14px;
+                 top: 3px;
+                 left: -10px;
+               }
+             }
+           }
+           .form-input {
+             width: calc(100% - 92px);
+             line-height: 36px;
+             input {
+               height: 36px;
+               line-height: 36px;
+               font-size: 14px;
+               max-width: 360px;
+             }
+           }
+         }
+         .hint {
+           color: darkred;
+           font-size: 12px;
+           padding-left: 92px;
+           margin-bottom: 10px;
+           span {
+             line-height: 12px;
+           }
+         }
+       }
+     }
+   }
+}

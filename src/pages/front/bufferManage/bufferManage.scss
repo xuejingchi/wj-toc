@@ -1,0 +1,137 @@
+.buffer-manage{
+  overflow:hidden;
+  .title {
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #2CAF64;
+  }
+  .top,.main{
+    overflow:hidden;
+    border:1px solid rgba(228, 228, 228, 1);
+    .header{
+      border-bottom:1px solid rgba(228, 228, 228, 1);
+      background-color:azure;
+      height:50px;
+      li{
+        height:48px;
+        margin-left:20px;
+      }
+      .left{
+        float:left;
+        line-height:48px;
+        span{
+          color:red;
+          padding-left:20px;
+        }
+      }
+      .right{
+        float:right;
+        .btn{
+          height:40px;
+          margin-top:5px;
+          margin-right:20px;
+        }
+      }
+    }
+  }
+  .top {
+    .header {
+      border-bottom: 1px solid rgba(228, 228, 228, 1);
+      background-color: azure;
+      height: 50px;
+      li {
+        height: 48px;
+        margin-left: 20px;
+      }
+      .left {
+        float: left;
+        line-height: 48px;
+      }
+      .right {
+        float: right;
+        .btn {
+          height: 40px;
+          margin-top: 5px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .body{
+      overflow:hidden;
+      height:82px;
+      padding-top:20px;
+      background-color: #fff;
+      li{
+        float:left;
+        height:40px;
+        margin-left:60px;
+        .label,.input,.check-box1,.check-box2{
+          float:left;
+        }
+        .label{
+          line-height:40px;
+          padding-right:30px;
+        }
+        .input{
+          width:200px;
+        }
+        .check-box1,.check-box2{
+          width:32px;
+          height:32px;
+          border:1px solid rgba(228, 228, 228, 1);
+          margin-right:30px;
+          margin-top:4px;
+          i{
+            font-size:30px;
+          }
+        }
+        .check-box1{
+          background-color:rgba(255, 57, 57, 1);
+        }
+        .check-box2{
+          background-color:rgba(172, 255, 59, 1);
+        }
+      }
+    }
+  }
+  .main{
+    overflow:hidden;
+    margin-top:20px;
+    background-color: #fff;
+    .table-box{
+      overflow:hidden;
+      margin:20px 20px;
+      border:1px solid rgba(228, 228, 228, 1);
+      .table-header{
+        height:40px;
+        background-color:#f2f2f2;
+      }
+      .table-header,.table-list{
+        border-bottom:1px solid rgba(228, 228, 228, 1);
+        height:40px;
+        width:100%;
+        display:table;
+        li{
+          height:39px;
+          line-height:39px;
+          border-right:1px solid rgba(228, 228, 228, 1);
+          float:left;
+          padding:0 16px;
+          display:table-cell;
+          vertical-align:middle;
+          width:20%;
+        }
+        li:last-child{
+          border-right:0px;
+          span{
+            color:#1ABC9C;
+          }
+        }
+      }
+      .table-list:last-child{
+        border:1px;
+      }
+    }
+  }
+}

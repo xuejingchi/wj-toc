@@ -1,0 +1,104 @@
+.instrument{
+  font-size: 14px;
+  .title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    height: 24px;
+    line-height: 20px;
+    border-left: 5px solid #37CBC1;
+  }
+  .router-box{
+    height: 60px;
+    background-color: #F4F7FA;
+    border: 1px solid #E2E2E2;
+    border-bottom: none;
+    a{
+      display: block;
+      float: left;
+      width: 130px;
+      line-height: 59px;
+      text-align: center;
+    }
+    .routerCheck{
+      color: #37CBC1;
+      background-color: #fff;
+    }
+  }
+  .order{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    .top{
+      overflow: hidden;
+      border: 1px solid #e4e4e4;
+      margin-bottom: 45px;
+      border-top: none;
+      .header{
+        border-bottom: 1px solid #e4e4e4;
+        background-color: azure;
+        height: 50px;
+        .left{
+          float: left;
+          line-height: 48px;
+        }
+        li{
+          margin-left: 20px;
+        }
+        .right{
+          float: right;
+          // .btn{
+          //   height: 40px;
+          //   margin-top: 5px;
+          //   margin-right: 20px;
+          //   background-color: #37CBC1;
+          //   color:#fff;
+          //   border-radius:2px;
+          // }
+        }
+      }
+      .body{
+        overflow: hidden;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        li{
+          float: left;
+          height: 40px;
+          margin-left: 20px;
+          .label{
+            line-height: 40px;
+            padding-right: 10px;
+            float: left;
+          }
+          .input{
+            width: 140px;
+            height: 36px;
+          }
+        }
+      }
+    }
+  }
+}
+.f-l{
+  float: left;
+}
+.rotate-left{
+  width: 200px;
+  position: absolute;
+  top: 320px;
+  left: -50px;
+  font-size: 14px;
+  transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+}
+.rotate-bottom{
+  width: 200px;
+  position: absolute;
+  top: 540px;
+  left: 50%;
+  font-size: 14px;
+  margin-left: -120px;
+}

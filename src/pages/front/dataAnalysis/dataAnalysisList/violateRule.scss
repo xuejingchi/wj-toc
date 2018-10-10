@@ -1,0 +1,61 @@
+.violate-rule {
+  .list {
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+    .list-title {
+      padding: 0 20px;
+      height: 50px;
+      line-height: 48px;
+      font-size: 16px;
+      border-bottom: 1px solid #e2e2e2;
+      background-color: azure;
+      .warning {
+        padding-left: 10px;
+        color: red;
+      }
+      .open-btn{
+        margin-top: 8px;
+      }
+      .search {
+        line-height: 30px;
+        display: inline-block;
+      }
+    }
+    .search-condition {
+      padding: 20px;
+      background-color: #fff;
+      .item {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        .name {
+          float: left;
+        }
+        .value {
+          margin: 0 15px;
+          float: left;
+          .el-date-editor, .el-input--suffix .el-input__inner {
+            width: 160px;
+          }
+        }
+      }
+    }
+    .content {
+      padding: 10px;
+      padding-bottom: 60px;
+    }
+  }
+  .el-table {
+    border: 1px solid #e2e2e2;
+    border-bottom: 0;
+  }
+  .el-pagination {
+    margin-top: 10px;
+  }
+  .list-bottom {
+    padding-bottom: 60px !important;
+  }
+  .el-table th>.cell {
+    text-align: center;
+  }
+}

@@ -1,0 +1,239 @@
+.feeding-manage{
+  overflow:hidden;
+  .title {  
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #2CAF64;
+  }
+  .router-box{
+    a{
+      display: inline-block;
+      width: 100px;
+      height: 40px;
+      border: 1px solid #e2e2e2;
+      text-align: center;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+    .routerCheck{
+      background: green;
+      color: #ffffff;
+    }
+  }
+  .top,.main{
+    overflow:hidden;
+    border:1px solid rgba(228, 228, 228, 1);
+    .header{
+      border-bottom:1px solid rgba(228, 228, 228, 1);
+      background-color:azure;
+      height:50px;
+      li{
+        height:48px;
+        margin-left:20px;
+      }
+      .left{
+        float:left;
+        line-height:48px;
+        span{
+          color:red;
+          padding-left:20px;
+        }
+      }
+      .right{
+        float:right;
+        .btn{
+          height:40px;
+          margin-top:5px;
+          margin-right:20px;
+        }
+      }
+    }
+  }
+  .top {
+    .header {
+      border-bottom: 1px solid rgba(228, 228, 228, 1);
+      background-color: azure;
+      height: 50px;
+      li {
+        height: 48px;
+        margin-left: 20px;
+      }
+      .left {
+        float: left;
+        line-height: 48px;
+      }
+      .right {
+        float: right;
+        .btn {
+          height: 40px;
+          margin-top: 5px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .body{
+      overflow:hidden;
+      background-color: #fff;
+      height:100%;
+      padding-top:20px;
+      padding-bottom: 20px;
+      li{
+        float:left;
+        height:40px;
+        margin-left:20px;
+        .label,.input,.check-box1,.check-box2{
+          float:left;
+        }
+        .label{
+          line-height:40px;
+          padding-right:10px;
+        }
+        .input{
+          width:100px;
+          height:36px;
+        }
+        .check-box1,.check-box2,.check-box3,.check-box4,.check-box5{
+          width:32px;
+          height:32px;
+          border:1px solid rgba(228, 228, 228, 1);
+          margin-top:4px;
+          margin-left: 3px;
+          box-sizing: border-box;
+          float: left;
+          i{
+            font-size:32px;
+          }
+        }
+        .check-box5{
+          background-color: black;
+        }
+        .check-box4{
+          background-color: red;
+        }
+        .check-box3{
+          background-color: yellow;
+        }
+        .check-box2{
+          background-color:rgba(172, 255, 59, 1);
+        }
+        .check-box1{
+          background-color: cyan;
+        }
+      }
+    }
+    .start-time,.end-time{
+      .el-date-editor.el-input{
+        width: 150px;
+      }
+    }
+    .el-checkbox-group{
+      width: 250px;
+      .el-checkbox__inner{
+        background: none;
+        border: none;
+      }
+      .is-checked.el-checkbox{
+        border: 2px solid #19BC9C;
+        box-sizing: border-box;
+      }
+      .is-checked.el-checkbox__input{
+        .el-checkbox__inner{
+          background: none;
+          border: none;
+          font-family: element-icons;
+          &::after{
+            content: "\E611";
+            color: #fff;
+            transform: rotate(0deg) scaleY(1);
+            font-size: 12px;
+            font-weight: 900;
+            border: 0 none;
+            left: 9px;
+            top: 12px;
+          }
+          &::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            display: block;
+            border-width: 10px;
+            border-style: solid;
+            border-color:#19BC9C transparent transparent transparent;
+            position: absolute;
+            top: 10px;
+            right: -16px;
+            transform: rotate(-48deg);
+          }
+        }
+      }
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+      background: none;
+      border: none;
+    }
+  }
+  .main{
+    overflow:hidden;
+    margin-top:20px;
+    background-color: #fff;
+    .table-box{
+      overflow:hidden;
+      margin:20px 20px;
+      border:1px solid rgba(228, 228, 228, 1);
+      .table-header{
+        height:40px;
+        background-color:#f2f2f2;
+      }
+      .table-header,.table-list{
+        border-bottom:1px solid rgba(228, 228, 228, 1);
+        height:40px;
+        width:100%;
+        display:table;
+        li{
+          height:39px;
+          line-height:39px;
+          border-right:1px solid rgba(228, 228, 228, 1);
+          float:left;
+          padding:0 16px;
+          display:table-cell;
+          vertical-align:middle;
+          width:20%;
+        }
+        li:last-child{
+          border-right:0px;
+        }
+      }
+      .table-list:last-child{
+        border:1px;
+      }
+    }
+  }
+  .f-l{
+    float: left;
+  }
+  .color-5{
+    background: black;
+  }
+  .color-4{
+    background: red;
+  }
+  .color-3{
+    background: yellow;
+  }
+  .color-2{
+    background-color: #acff3b;
+  }
+  .color-1{
+    background: cyan;
+  }
+  .dis-b{
+    display: block;
+    width: 100%;
+    height: 30px;
+  }
+  .closeBtn:hover{
+    text-decoration: underline;
+  }
+}
+

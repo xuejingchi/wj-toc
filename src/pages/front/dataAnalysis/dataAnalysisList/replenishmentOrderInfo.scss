@@ -1,0 +1,174 @@
+.replenishment-order-info {
+  overflow:hidden;
+  //border:1px solid red;
+  .top,.main{
+    overflow:hidden;
+    background-color: #fff;
+    border:1px solid rgba(228, 228, 228, 1);
+    .header{
+      border-bottom:1px solid rgba(228, 228, 228, 1);
+      background-color:#fff;
+      height:50px;
+      li{
+        height:48px;
+        margin-left:20px;
+      }
+      .left{
+        float:left;
+        line-height:48px;
+        span{
+          color:red;
+          padding-left:20px;
+        }
+      }
+      .right{
+        float:right;
+        .btn{
+          height:40px;
+          margin-top:5px;
+          margin-right:20px;
+        }
+      }
+    }
+  }
+  .top {
+    .header {
+      border-bottom: 1px solid rgba(228, 228, 228, 1);
+      background-color: azure;
+      height: 50px;
+      li {
+        height: 48px;
+        margin-left: 20px;
+      }
+      .left {
+        float: left;
+        line-height: 48px;
+      }
+      .right {
+        float: right;
+        .btn {
+          height: 40px;
+          margin-top: 5px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .body{
+      overflow:hidden;
+      height:82px;
+      padding-top:20px;
+      li{
+        float:left;
+        height:40px;
+        margin-left:40px;
+        .label,.input,.check-box1,.check-box2,.check-box3,.check-box4,.check-box5{
+          float:left;
+        }
+        .label{
+          line-height:40px;
+          padding-right:30px;
+        }
+        .input{
+          width:200px;
+        }
+        .date{
+          width:140px;
+        }
+        .check-box1,.check-box2,.check-box3,.check-box4,.check-box5{
+          width:32px;
+          height:32px;
+          border:1px solid rgba(228, 228, 228, 1);
+          margin-right:10px;
+          margin-top:4px;
+          i{
+            font-size:30px;
+            color:#ccc;
+          }
+        }
+        .check-box1{
+          background-color:#000000;
+        }
+        .check-box2{
+          background-color:#ff3939;
+        }
+        .check-box3{
+          background-color:#feff3c;
+        }
+        .check-box4{
+          background-color:#acff3c;
+        }
+        .check-box5{
+          background-color:#00ffff;
+        }
+      }
+    }
+  }
+  .main{
+    overflow:hidden;
+    margin-top:20px;
+    .table-box{
+      overflow:hidden;
+      margin:20px 20px;
+      border:1px solid rgba(228, 228, 228, 1);
+      .table-header{
+        background-color:#f2f2f2;
+      }
+      .table-header,.table-list{
+        border-bottom:1px solid rgba(228, 228, 228, 1);
+        height:50px;
+        width:100%;
+        display:table;
+        li{
+          height:49px;
+          line-height:49px;
+          border-right:1px solid rgba(228, 228, 228, 1);
+          float:left;
+          padding:0 16px;
+          display:table-cell;
+          vertical-align:middle;
+          width:12%;
+          white-space:nowrap;
+          overflow:hidden;
+          text-overflow:ellipsis;
+        }
+        li:first-child{
+          width:15%;
+        }
+        li:last-child{
+          border-right:0px;
+          span{
+            color:#1ABC9C;
+          }
+        }
+      }
+      .table-list{
+        .color{
+          padding:0 0;
+          p{
+            padding:0 16px;
+          }
+          .color-5{
+            background-color:#000000;
+            color:#fff;
+          }
+          .color-4{
+            background-color:#ff3939;
+            color:#fff;
+          }
+          .color-3{
+            background-color:#feff3c;
+          }
+          .color-2{
+            background-color:#acff3c;
+          }
+          .color-1{
+            background-color:#00ffff;
+          }
+        }
+      }
+      .table-list:last-child{
+        border:1px;
+      }
+    }
+  }
+}

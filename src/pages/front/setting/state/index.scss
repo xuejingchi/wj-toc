@@ -1,0 +1,80 @@
+.state {
+  position: relative;
+  padding: 10px;
+  font-size: 16px;
+  .el-dialog {
+    .el-form-item {
+      width: 400px;
+    }
+  }
+  .title {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #2CAF64;
+  }
+  .back {
+    display: block;
+    padding-top: 10px;
+    border-top: 1px solid #e2e2e2;
+  }
+  .func {
+    margin-top: 20px;
+  }
+  .search {
+    border: 1px solid #e2e2e2;
+    .search-title {
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
+      background-color: azure;
+    }
+    .search-condition {
+      padding: 10px;
+      .item {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        .name {
+          float: left;
+        }
+        .value {
+          margin: 0 15px;
+          float: left;
+          .el-input input {
+            width: 130px;
+            padding: 0 5px;
+          }
+          .start-input, .end-input {
+            width: 200px;
+            input {
+              width: 200px;
+              padding: 0 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .search-list {
+    margin-top: 20px;
+    border: 1px solid #e2e2e2;
+    .search-title {
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
+      background-color: azure;
+      .download-btn {
+        padding: 5px;
+        border: 1px solid #e2e2e2;
+        background-color: white;
+      }
+    }
+    .search-result {
+      padding: 10px;
+      .el-table {
+        border: 1px solid #e2e2e2;
+        border-bottom: 0;
+      }
+    }
+  }
+}
